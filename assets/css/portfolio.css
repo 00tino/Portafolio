@@ -85,7 +85,6 @@
 }
 
 #portfolio button:after {
-    content: url('/assets/video/proyecto1.mp4');
     position: absolute;
     z-index: 2;
     left: 50%;
