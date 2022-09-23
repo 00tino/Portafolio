@@ -84,7 +84,7 @@
     opacity: 1;
 }
 
-#portfolio button:after {
+/* #portfolio button:after {
     position: absolute;
     z-index: 2;
     left: 50%;
@@ -92,7 +92,7 @@
     transform: translate(-40%, -50%); 
     opacity: 0;
     transition: top ease .3s, opacity ease .3s;
-}
+} */
 
 
  #portfolio button:hover:after {
