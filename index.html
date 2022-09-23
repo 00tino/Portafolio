@@ -55,32 +55,24 @@
             <h3>Portfolio</h3>
             <hr />
             <div>
-                <button onclick="NewTab()">
-                    <video autoplay loop muted>
-                        <source src="https://00tino.github.io/Portafolio/assets/video/proyecto1.mp4" />
-                    </video>
-                    <h2>¡CLICK!</h2>
-                    <h4><br>Proyecto 1<br><br>MP3</h4>
-                </button>
-                <script>
-                    function NewTab() {
-                        window.open(
-                          "https://00tino.github.io/mp3Player/", "_blank");
-                    }
-                </script>
-                <button onclick="NewTab()">
-                    <video autoplay loop muted>
-                        <source src="https://00tino.github.io/Portafolio/assets/video/proyecto2.mp4" />
-                    </video>
-                    <h2>¡CLICK!</h2>
-                    <h4><br>Proyecto 2<br><br>Carousel</h4>
-                </button>
-                <script>
-                    function NewTab() {
-                        window.open(
-                          "https://00tino.github.io/carousel/", "_blank");
-                    }
-                </script>
+                <div onclick="openInNewTab('https://00tino.github.io/mp3Player/');">
+                    <button onclick="NewTab()">
+                        <video autoplay loop muted>
+                            <source src="https://00tino.github.io/Portafolio/assets/video/proyecto1.mp4" />
+                        </video>
+                        <h2>¡CLICK!</h2>
+                        <h4><br>Proyecto 1<br><br>MP3</h4>
+                    </button>
+                </div>
+                <div onclick="openInNewTab('https://00tino.github.io/carousel/');">
+                    <button onclick="NewTab()">
+                        <video autoplay loop muted>
+                            <source src="https://00tino.github.io/Portafolio/assets/video/proyecto2.mp4" />
+                        </video>
+                        <h2>¡CLICK!</h2>
+                        <h4><br>Proyecto 2<br><br>Carousel</h4>
+                    </button>
+                </div>
             </div>
         </section>
         <section id="skillset" class="even">
