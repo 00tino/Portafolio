@@ -6,7 +6,7 @@
 }
 
 #skillset img {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   max-width: 7rem;
   cursor: context-menu;
 }
