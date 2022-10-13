@@ -1,9 +1,9 @@
-/* #portfolio > div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    margin: 1rem;
-} */
+#portfolio #proyect {
+    width: 310px;
+    height: 335px;
+    margin: 0px auto;
+    overflow: hidden;
+}
 
 
 #portfolio button video {
