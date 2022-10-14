@@ -1,0 +1,25 @@
+#allAboutMe {
+    display: inline-flex;
+    height: 50%;
+    width: 45%;
+}
+
+#allAboutMe {
+    margin-bottom: 3rem;
+}
+
+#allAboutMe img {
+    margin-right: 1rem;
+    border-radius: 25px;
+    border: 5px solid var(--white);
+    box-shadow: 0px 0px 38px var(--black2);
+}
+
+#allAboutMe #textAbotMe {
+    margin-left: 1rem;
+    padding-top: 4.5rem;
+}
+
+#aboutMe p {
+    margin-top: -2rem;
+}

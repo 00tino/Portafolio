@@ -1,3 +1,9 @@
 .circle {
     border-radius: 50%;
 }
+
+
+.clearfix {
+   float: none;
+    clear: both;
+}
