@@ -55,7 +55,7 @@
 }
 
 #navbar.open ul {
-    max-height: 150px;
+    max-height: 350px;
 }
 
 #navbar li {
@@ -82,7 +82,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
 }
 
 #toggle:hover {
