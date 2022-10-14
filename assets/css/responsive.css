@@ -1,3 +1,23 @@
+@media (max-width: 915px) {
+    #aboutMe {
+        height: 1000px;
+    }
+    
+    #allAboutMe {
+        flex-direction: column;
+        height: 100%
+    }
+
+    #aboutMe img {
+        margin-right: 0px;
+    }
+
+    #allAboutMe #textAboutMe {
+        margin-top: 2rem;
+        margin-left: 0px;
+    }
+}
+
 @media (max-width: 740px) {
     #skillset > div {
         grid-template-columns: 1fr 1fr 1fr;
