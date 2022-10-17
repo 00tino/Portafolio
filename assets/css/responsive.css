@@ -18,6 +18,12 @@
     }
 }
 
+@media (max-width: 883px) {
+    #skillset > div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 @media (max-width: 740px) {
     #skillset > div {
         grid-template-columns: 1fr 1fr 1fr;
@@ -25,5 +31,15 @@
 
     #learning > div {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 528px) {
+    #skillset > div {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #learning > div {
+        grid-template-columns: 1fr 1fr;
     }
 }

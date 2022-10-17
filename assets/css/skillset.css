@@ -1,7 +1,7 @@
 #skillset > div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 4.55rem;
     margin: 1rem;
 }
 
