@@ -2,8 +2,6 @@
     border-radius: 50%;
 }
 
-
-.clearfix {
-   float: none;
-    clear: both;
+.small-technology {
+    scale: 1.6;
 }
