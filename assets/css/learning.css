@@ -1,16 +1,27 @@
 #learning > div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4.55rem;
     margin: 1rem;
 }
 
 #learning img {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   max-width: 7rem;
   cursor: context-menu;
 }
 
+#mvc {
+  transform: scale(2);
+}
+
+#aws {
+  transform: scale(1.5);
+}
+
+#serveless {
+  transform: scale(1.5);
+}
 
 #learning > div > div {
   position: relative;
